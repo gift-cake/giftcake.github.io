@@ -1,0 +1,239 @@
+
+
+body{
+    background-color: #c4fbfe;
+    color:black;
+    text-align: center;
+    font-family: 'Bangers';
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+@media only screen and (min-width : 722px) {
+
+    .fadein {
+        opacity: 0;
+        -moz-transition: opacity 1.5s;
+        -webkit-transition: opacity 1.5s;
+        -o-transition: opacity 1.5s;
+        transition: opacity 1.5s;
+    }
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+    #bg{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+    #bgm{
+        display: none;
+    }
+
+    .topbar{
+        position: absolute;
+        z-index: 999999999999;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50px;
+        background-color: transparent;
+    }
+
+
+    .topbar img{
+        height: 40px;
+        position: absolute;
+        left: 30px;
+        top: 7.5px
+    }
+
+    .topbar h1{
+        font-size: 25px;
+        position: absolute;
+        left: 100px;
+        color: rgb(134, 127, 85)
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .popup{
+        display: none;
+    }
+
+    #hm-logo{
+        width: 30vw;
+        position: relative;
+        top: 50px;
+        left: 1vw;
+    }
+
+    .l-cntn-m{
+        display: none;
+    }
+
+    .l-cntn{
+        position: relative;
+        top: -70px;
+        width: 40vw;
+        z-index: 2;
+        bottom: 170px;
+        left: 30vw;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .l-cntn h1{
+        font-size: 25px;
+    }
+    
+
+    .l-cntn img{
+        width: 50%;
+        position: relative;
+    }
+
+    .l-cntn a{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        background-color: rgb(223, 198, 57);
+        padding: 10px 20px;
+        top: 20px;
+        margin-right: 20px;
+    }
+
+    .l-cntn a:hover{
+        background-color: black;
+        color: white
+    }
+
+    .l-cntn img{
+      display: none;
+    }
+
+    .buy-on{
+        position: relative;
+        z-index: 999;
+        width: 80vw;
+        left: 8vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 100px;
+    }
+
+    .buy-on a{
+        display: inline-block;
+        margin-right: 60px;
+    }
+
+    .buy-on img{
+        height: 30px;
+    }
+
+    .buy-on h1{
+        font-size: 20px;
+    }
+
+    .buy-on a:hover{
+        height: 28px;
+        border-bottom: 2px solid white;
+    }
+
+    .about{
+        position: relative;
+        top: 15vh;
+        z-index: 999;
+        width: 40vw;
+        left: 4vw;
+        text-align: left;
+        margin-bottom: 300px;
+    }
+
+    #hm-cake{
+        position: absolute;
+        right: 10vw;
+        width: 30vw;
+        margin-bottom: 200px;
+    }
+
+    #hm-chart{
+        position: absolute;
+        left: 10vw;
+        width: 25vw;
+    }
+
+    .tokenomic{
+        position: absolute;
+        z-index: 999;
+        width: 40vw;
+        right: 4vw;
+        text-align: left;
+        margin-top: 40px;
+    }
+
+
+    .tokenomic p{
+        font-size: 20px;
+    }
+
+    .tokenomic-m{
+        display: none;
+    }
+
+    .join{
+        position: relative;
+        top: 500px;
+        width: 80vw;
+        left: 8vw;
+        height: 600px;
+    }
+
+    .join img{
+        width: 20vw;
+    }
+
+    .join a{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 60px;
+        margin-right: 40px;
+        color: rgb(223, 198, 57);
+        position: relative;
+        left: 1.5vw;
+        top: 20px
+    }
+
+    #cr{
+        position: absolute;
+        bottom: 20px;
+        left: 28vw;
+    }
+
+    
+
+}

@@ -1,0 +1,204 @@
+
+@media only screen and (max-width : 720px) {
+    #bgm{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+        height: 100vh;
+    }
+
+    #bg{
+        display: none;
+    }
+
+    /* topbar */
+    .topbar{
+        position: fixed;
+        z-index: 9999999999;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 50px;
+    }
+
+    .topbar h1{
+        display: none;
+    }
+
+    .topbar img{
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        left: 30px
+    }
+
+    .icon {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 5px 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .popup{
+        position: fixed;
+        z-index: 99999999;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        padding-top: 100px;
+        display: none;
+    }
+
+    .popup a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .popup img{
+        width: 80vw;
+        position: absolute;
+        bottom: 20vh;
+        left: 9vw;
+    }
+
+    .l-cntn{
+        display: none;
+    }
+
+   #hm-logo{
+       display: none;
+   }
+
+    .l-cntn-m{
+        position: relative;
+        z-index: 999;
+        width: 80vw;
+        left: 8vw;
+        top: 130px;
+    }
+
+    .l-cntn-m a{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        background-color: rgb(223, 198, 57);
+        padding: 10px 20px;
+        top: -20px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .l-cntn-m a:hover{
+        background-color: black;
+        color: white
+    }
+
+    .l-cntn-m h1{
+        font-size: 25px;
+        position: relative;
+        top: -60px;
+    }
+
+    .l-cntn-m img{
+        width: 80%;
+        position: relative;
+        top: -50px;
+    }
+
+
+
+    .buy-on{
+        position: relative;
+        z-index: 999;
+        width: 80vw;
+        left: 8vw;
+        top: 200px;
+    }
+
+    .buy-on a{
+        display: block;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .buy-on img{
+        height: 40px;
+    }
+
+    #hm-cake{
+        width: 60vw;
+        position: relative;
+        top: 200px
+    }
+
+
+    .about{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 200px;
+        margin-bottom: 100px;
+    }
+
+    #hm-chart{
+        width: 60vw;
+        position: relative;
+        top: 200px
+    }
+
+    .tokenomic{
+        display: none;
+    }
+
+    .tokenomic-m{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 200px;
+        margin-bottom: 100px;
+    }
+
+    .join{
+        position: relative;
+        top: 300px;
+        width: 90vw;
+        left: 4vw;
+        height: 600px;
+    }
+
+    .join img{
+        width: 60vw;
+    }
+
+    .join a{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 60px;
+        margin-right: 40px;
+        color: rgb(223, 198, 57);
+        position: relative;
+        left: 4vw;
+        top: 20px
+    }
+
+    #cr{
+        position: absolute;
+        bottom: 20px;
+        left: 5vw;
+    }
+
+}
